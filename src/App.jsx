@@ -2,6 +2,9 @@ import React,{useState} from 'react'
 import ListComponents from './container/components/ListComponents'
 import UserProfile from './container/components/UserProfile'
 import Greeting from './Greeting';
+import Employee from './container/components/Employee';
+
+import './App.css'
 
 const App = () => {
   const[valueA,setValueA]=useState(5);
@@ -13,7 +16,8 @@ const App = () => {
       <ListComponents a={valueA} b={valueB}/> */}
     
     {/* <UserProfile/> */}
-    <Greeting/>
+    {/* <Greeting/> */}
+    <Employee/>
     </div>
 
 
